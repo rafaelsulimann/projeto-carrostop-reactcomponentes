@@ -1,0 +1,32 @@
+.catalog-card {
+    width: 306px;
+    min-height: 347px;
+    padding: 15px 20px;
+    background-color: var(--gray-catalog-card-background-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.catalog-card img {
+    width: 220px;
+    height: 165px;
+}
+
+.catalog-card h2 {
+    font-size: 18px;
+    line-height: 21.09px;
+    font-weight: 700;
+    margin-bottom: 14px;
+}
+
+.catalog-card p {
+    font-size: 14px;
+    color: var(--gray-catalog-card-text-color);
+    font-weight: 400;
+    font-style: italic;
+    line-height: 16.41px;
+    margin-bottom: 20px;
+}
+
